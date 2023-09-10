@@ -1,0 +1,12 @@
+--[[
+     Version 1.2, made by frel0/xamel
+--]]
+
+
+local Message = loadstring(game:HttpGet("https://raw.githubusercontent.com/frel0/FakeKickLibrary/main/FakeKickLibrary.lua", true))()
+
+Message:Crash("An unexpected error occured and Roblox needs to quit. Were sorry!")
+wait(3)
+Message:Kick("You have been kicked from this experience: Banned Until 2049")
+wait(3)
+Message:RickRoll() 
